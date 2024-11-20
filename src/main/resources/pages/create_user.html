@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+    </head>
+    <body>
+    <h1>Register page</h1>
+        <form action="/api/v1/create" method="POST">
+            <input type="text" name="username" placeholder="username">
+            <input type="password" name="password" placeholder="********">
+            <input type="submit" value="Создать">
+        </form>
+        <div>
+            <a href="http://localhost:8080/">Главная</a>
+            <a href="http://localhost:8080/catalog">Каталог</a>
+            <a href="http://localhost:8080/about">О нас</a>
+            <a href="http://localhost:8080/secured">Secured</a>
+        </div>
+    </body>
+</html>
